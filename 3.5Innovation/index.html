@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vulnerabilities Found</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Include Chart.js library from CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Vulnerabilities Found</h1>
+        <h2>Vulnerability Chart</h2>
+        
+        <!-- Display total number of vulnerabilities -->
+        <h3 id="totalVulnerabilities">Total Vulnerabilities: 0</h3>
+        
+        <!-- Canvas element where the chart will be rendered -->
+        <canvas id="vulnerabilitiesChart" width="400" height="200"></canvas>
+    </div>
+    <!-- Include the JavaScript file that handles fetching data and rendering the chart -->
+    <script src="js/script.js"></script>
+</body>
+</html>
